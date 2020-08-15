@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Gotham Book';
+    src: url(fonts/gotham-book.otf);
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #E7EAEF;
+    font-family: 'Gotham Book';
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 14px;
+    border: none;
+    padding: 13px 34px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #3BACFF;
+    color: #FFFFFF;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* First Navbar */
+.first-navbar {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-navbar-menu {
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.first-navbar-menu a {
+    width: 137px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #142032;
+}
+
+.first-navbar-menu a:hover {
+    border-radius: 5px 5px 0px 0px;
+    background: #FFFFFF;
+}
+
+.first-navbar-menu a span {
+    font-weight: bold;
+}
+
+.accessibility {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.accessibility .accessibility-buttons {
+    margin-right: 14px;
+}
+
+.accessibility .accessibility-buttons button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+
+.accessibility .accessibility-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 10px;
+}
+
+.accessibility .accessibility-text div {
+    margin: 0px 14px;
+}
+
+.accessibility .accessibility-text i img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Second Navbar */
+
+.second-navbar {
+    background-color: #FFFFFF;
+}
+
+.second-navbar .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 115px;
+}
+
+.second-navbar .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-navbar .brand a{
+    font-size: 45px;
+    text-decoration: none;
+    color: #142032;
+}
+
+.second-navbar .brand a span {
+    font-weight: bold;
+}
+
+#second-navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+#second-navbar-menu .menu-item {
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#second-navbar-menu .menu-item:hover {
+    cursor: pointer;
+    color: #142032;
+}
+
+.second-navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.second-navbar-buttons a {
+    display: flex;
+    align-items: center;
+}
+
+.second-navbar-buttons a:last-child {
+    color: #142032;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.second-navbar-buttons a:last-child img{
+    margin-left: 25px;
+    width: 16px;
+    height: 16px;
+    color: #3BACFF;
+}
+
+
+/* Login */
+
+.login {
+    display: none;
+}
