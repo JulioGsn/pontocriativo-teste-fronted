@@ -1,7 +1,7 @@
 # Teste Front-end Ponto Criativo
 
 See the result here ...
-https://juliogsn.github.io/pontocriativo-teste-fronted/
+https://juliogsn.github.io/pontocriativo-teste-frontend/
 
 ## Challenge
 - Build the interface below
