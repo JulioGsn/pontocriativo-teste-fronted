@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .btn {
     font-size: 14px;
     border: none;
@@ -62,6 +66,10 @@ a {
     text-align: center;
     text-decoration: none;
     color: #142032;
+}
+
+.first-navbar-menu a:first-child {
+    margin-right: 10px;
 }
 
 .first-navbar-menu a:hover {
@@ -139,11 +147,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    list-style: none;
 }
 
 #second-navbar-menu .menu-item {
-    margin-right: 30px;
+    margin-right: 40px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -159,18 +166,18 @@ a {
     justify-content: flex-end;
 }
 
-.second-navbar-buttons a {
+.second-navbar-buttons .dropdown a {
     display: flex;
     align-items: center;
 }
 
-.second-navbar-buttons a:last-child {
+.second-navbar-buttons .dropdown a{
     color: #142032;
     margin-left: 30px;
     font-size: 14px;
 }
 
-.second-navbar-buttons a:last-child img{
+.second-navbar-buttons .dropdown a img{
     margin-left: 25px;
     width: 16px;
     height: 16px;
@@ -180,6 +187,88 @@ a {
 
 /* Login */
 
-.login {
-    display: none;
+.second-navbar-buttons .dropdown {
+    position: relative;
+}
+
+.dropdown #dropdown-content {
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    border: 1px solid #707070;
+    width: 460px;
+    height: 330px;
+
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+}
+
+.dropdown #dropdown-content ul {
+    padding: 30px 20px;
+}
+
+.dropdown #dropdown-content ul li {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.dropdown #dropdown-content ul li i {
+    color: #3BACFF;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.dropdown #dropdown-content .form {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.dropdown #dropdown-content .form h1 {
+    font-size: 22px;
+    font-weight: bold;
+}   
+
+.dropdown #dropdown-content .form h2 {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dropdown #dropdown-content .form .input-group {
+    margin-top: 10px;
+} 
+
+.dropdown #dropdown-content .form .input-group label {
+    font-size: 10px;
+}
+
+.dropdown #dropdown-content .form .input-group input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.dropdown #dropdown-content .form #form-footer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.dropdown #dropdown-content .form #form-footer a {
+    font-size: 10px;
+    margin-left: 0;
+}
+
+.dropdown #dropdown-content .form #form-footer a i {
+    font-size: 14px;
+    color: #3BACFF;
+    margin-right: 5px;
 }

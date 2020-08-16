@@ -46,16 +46,67 @@
                 </ul>
                 <div class="second-navbar-buttons">
                     <a href="#" class="btn btn-primary">Inscreva-se</a>
-                    <a href="#" class="btn-ligth">
-                        <h4>Portal do Aluno</h4>
-                        <img src="icons/angle-down-solid.svg" />
-                    </a>
+                    <div class="dropdown">
+                        <a href="#" id="btn-dropdown" class="btn-ligth">
+                            <h4>Portal do Aluno</h4>
+                            <img src="icons/angle-down-solid.svg" />
+                        </a>
+                        <div id="dropdown-content" style="visibility: visible">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-angle-right fa-1x"></i>
+                                    Meus Cursos
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right fa-1x"></i>
+                                    Impressão de 2a. Via
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right fa-1x"></i>
+                                    Débito automático
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right fa-1x"></i>
+                                    Mudança de vencimento
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right fa-1x"></i>
+                                    Entenda sua fatura
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right fa-1x"></i>
+                                    Fatura por e-mail
+                                </li>
+                            </ul>
+                            <div class="form">
+                                <h1>Olá!</h1>
+                                <h2>Bem-vindo ao Portal do Aluno.</h2>
+                                <form action="#">
+                                    <div class="input-group">
+                                        <label for="email">E-mail ou CPF</label>
+                                        <input type="text" name="email">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="senha">Senha</label>
+                                        <input type="text" name="senha">
+                                    </div>
+                                    <div id="form-footer">
+                                        <a href="">
+                                            <i class="fas fa-angle-right fa-1x"></i>
+                                            Lembrar senha
+                                        </a>
+                                        <button class="btn btn-primary">Entrar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
-
     </header>
 
+    <script src="https://kit.fontawesome.com/567e0b8abb.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
