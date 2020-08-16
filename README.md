@@ -5,7 +5,7 @@ https://juliogsn.github.io/pontocriativo-teste-fronted/
 
 ## Challenge
 - Build the interface below
-![](https://drive.google.com/file/d/1Tv4EFu1r8ZF0gBkqi7CgCQwtEhqBoeyS/view?usp=sharing)
+![image](https://drive.google.com/file/d/1Tv4EFu1r8ZF0gBkqi7CgCQwtEhqBoeyS/view?usp=sharing)
 ### Techs
 - HTML5
 - CSS3
