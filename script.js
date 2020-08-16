@@ -1,3 +1,6 @@
+/*
+ * When the browser window is loaded
+ */
 window.addEventListener('load', function() {
     
     const btnDropdown = document.getElementById('btn-dropdown');
@@ -14,6 +17,4 @@ window.addEventListener('load', function() {
         }
          
     });
-
-
 });
